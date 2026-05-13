@@ -7,3 +7,5 @@ public class BenchmarkStats {
         System.out.printf("[%s] Min: %.2f ns, Max: %.2f ns, Avg: %.2f ns%n", name, stats.getMin(), stats.getMax(), stats.getAverage());
     }
 }
+`n    // Telemetry Note: Future PRs should expand this to capture nano-epoch boundaries 
+    // to properly correlate outputs against GitHub Action workflow timings.
