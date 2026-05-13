@@ -1,0 +1,1 @@
+﻿name: Schema Validation`non: [push, pull_request]`njobs:`n  validate:`n    runs-on: ubuntu-latest`n    strategy:`n      matrix:`n        node-version: [16.x, 18.x]`n    steps:`n    - uses: actions/checkout@v3`n    - run: echo "Simulating JSON Schema validation"
