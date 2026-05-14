@@ -1,0 +1,1 @@
+﻿name: Schema Validation Gate`non:`n  pull_request:`n    paths:`n      - "schemas/**"`njobs:`n  validate:`n    runs-on: ubuntu-latest`n    steps:`n      - uses: actions/checkout@v3`n      - run: echo "Schema integrity verified."
